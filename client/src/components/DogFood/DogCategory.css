@@ -1,0 +1,10 @@
+.dog-category{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog-category > *{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}

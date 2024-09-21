@@ -1,0 +1,29 @@
+.dog-food{
+    margin: 40px;
+}
+
+.filterss{
+    display: flex;
+}
+
+.filter-child{
+    width: 30%;
+}
+
+.filter-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter-headings{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.filter-hr{
+    color: black;
+    margin-top: 30px;
+    width: 100%;
+}

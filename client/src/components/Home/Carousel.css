@@ -1,0 +1,4 @@
+.carousel-control-prev, .carousel-control-next{
+    pointer-events: none;
+    display: none;
+}

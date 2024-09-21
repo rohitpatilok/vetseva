@@ -1,0 +1,39 @@
+.product-details{
+    height: 480px;
+    width: 250px;
+    border: 0.1rem solid #eee;
+    border-radius: 0;
+    padding: 0 5px;
+}
+
+.product-details a img{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+
+.weight{
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    border: 1px solid #4D4D4F;
+}
+
+.cart-button button{
+    color: black;
+    width: 100%;
+    background-color: yellow;
+}
+
+.product-details a{
+    text-decoration: none;
+}
+
+.mrp{
+    color: #908e8e;
+    text-decoration: line-through;
+}
+
+.product-desc:hover{
+    text-decoration: underline;
+}

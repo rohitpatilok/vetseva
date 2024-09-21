@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#products-submenu{
+    display: flex;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    padding: 10px 0;
+    background-color: white;
+    visibility: hidden;
+    min-width: 100%;
+    z-index: 1;
+    cursor: default;
+}
+
+#products-submenu ul li{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#products-submenu ul a{
+    color: black;
+    text-decoration: none;
+}
+
+#products-submenu ul a:hover{
+    text-decoration: underline;
+}
+
+li:hover div#products-submenu{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+  
+  
+
+  
+
+  
+
+  

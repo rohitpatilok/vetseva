@@ -1,0 +1,25 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: end;
+}
+
+hr{
+    width: 300px;
+    margin-top: 1rem;
+}
+
+.login-input{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 600px;
+}
